@@ -6,31 +6,42 @@
   <title>Portfolio de Stéphane Arthur Victor - Photographe, Développeur et Trader</title>
   <meta name="description" content="Découvrez le portfolio de Stéphane Arthur Victor, un artiste polyvalent passionné par la photographie, la programmation et le trading. Explorez ses projets créatifs et techniques.">
   <meta name="keywords" content="portfolio, photographie, programmation, trading, développement web, Stéphane Arthur Victor">
-  
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script></head>
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="about.html">À propos</a></li>
-        <li><a href="projects.html">Projets</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="media/bitcoin.svg" alt="Logo du portfolio">
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="about.html">À propos</a></li>
+          <li><a href="projects.html">Projets</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="profile-container">
+        <div class="profile-photo">
+          <img src="media/profile-photo.jpg" alt="Photo de profil de Stéphane Arthur Victor">
+        </div>
+        <a href="#" class="login-link">Connexion</a>
+      </div>
+    </div>
   </header>
-
   <main>
     <section class="hero">
       <h1>Bienvenue sur mon portfolio</h1>
       <p>Découvrez mes derniers projets et compétences.</p>
-      <a href="#" class="btn">En savoir plus</a>
+      <a href="projects.html" class="btn">En savoir plus</a>
     </section>
 
     <section class="about">
-      <h2>À propos de moi</h2>
-      <div class="about-content">
+      <h2 id="about-h2">À propos de moi</h2>
+      <div class="about-content" id="about-content-og">
         <img src="media/profile.jpg" alt="Photo de profil">
         <div class="about-text">
           <p>Je suis un développeur web passionné par la création de sites web modernes et performants.</p>
@@ -46,26 +57,87 @@
           <img src="media/project1.jpg" alt="Projet 1">
           <h3>Projet 1</h3>
           <p>Description du projet 1.</p>
-          <a href="#" class="btn">En savoir plus</a>
+          <a href="project-details1.html" class="btn">En savoir plus</a>
         </div>
         <div class="project-card">
           <img src="media/project2.jpg" alt="Projet 2">
           <h3>Projet 2</h3>
           <p>Description du projet 2.</p>
-          <a href="#" class="btn">En savoir plus</a>
+          <a href="project-details2.html" class="btn">En savoir plus</a>
         </div>
         <div class="project-card">
           <img src="media/project3.jpg" alt="Projet 3">
           <h3>Projet 3</h3>
           <p>Description du projet 3.</p>
-          <a href="#" class="btn">En savoir plus</a>
+          <a href="project-details3.html" class="btn">En savoir plus</a>
         </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>Suivez-moi sur les réseaux</h3>
+        <ul class="social-links">
+          <li><a href="#" target="_blank">
+            <img src="media/facebook.svg" alt="Facebook">
+            Facebook
+          </a></li>
+          <li><a href="#" target="_blank">
+            <img src="media/instagram.svg" alt="Instagram">
+            Instagram
+          </a></li>
+          <li><a href="#" target="_blank">
+            <img src="media/twitter.svg" alt="Twitter">
+            Twitter
+          </a></li>
+          <li><a href="#" target="_blank">
+            <img src="media/linkedin.svg" alt="LinkedIn">
+            LinkedIn
+          </a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Autres réseaux</h3>
+        <ul class="social-links">
+          <li><a href="#" target="_blank">
+            <img src="media/github.svg" alt="GitHub">
+            GitHub
+          </a></li>
+          <li><a href="#" target="_blank">
+            <img src="media/steam.svg" alt="Steam">
+            Steam
+          </a></li>
+          <li><a href="#" target="_blank">
+            <img src="media/reddit.svg" alt="Reddit">
+            Reddit
+          </a></li>
+          <li><a href="#" target="_blank">
+            <img src="media/pinterest.svg" alt="Pinterest">
+            Pinterest
+          </a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Contactez-moi</h3>
+        <ul class="social-links">
+          <li><a href="#" target="_blank">
+            <img src="media/whatsapp.svg" alt="WhatsApp">
+            WhatsApp
+          </a></li>
+          <li><a href="#" target="_blank">
+            <img src="media/telegram.svg" alt="Telegram">
+            Telegram
+          </a></li>
+          <li><a href="#" target="_blank">
+            <img src="media/discord.svg" alt="Discord">
+            Discord
+          </a></li>
+        </ul>
+      </div>
+    </div>
+    <p>&copy; 2024 Portfolio de Stéphane Arthur Victor. Tous droits réservés.</p>
   </footer>
 </body>
 </html>
